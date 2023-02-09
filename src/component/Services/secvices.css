@@ -1,0 +1,44 @@
+.my_service{
+    padding: 60px 0 30px 0;
+}
+.my_service h2{
+    margin-bottom: 40px;
+}
+.mybtn{
+    background-color: #7952b3 ;
+    border: 1px solid #7952b3 ;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 12px;
+    padding: 10px 30px ;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+    display: inline-block;
+}
+.mybtn:hover{
+    background-color: transparent ;
+    border: 1px solid #7952b3 ;
+    color: #7952b3 !important;
+}
+.single_service{
+    border: 1px solid #ededed;
+    border-radius: 0 0 6px 6px;
+    margin-bottom: 30px;
+}
+.service_text{
+    padding: 15px;
+}
+.service_text h3{
+    font-size: 22px ;
+}
+.service_text h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1376px){
+    .service_text{
+        padding: 20px 20px;
+    }
+}
