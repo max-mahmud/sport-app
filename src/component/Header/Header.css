@@ -27,11 +27,6 @@
 
 
 @media only screen and (max-width: 991px){
-    .myheader .navbar-nav a:first-child::after{
-        width: 0;
-        height: 0;
-        background-color: transparent;
-    }
     .myheader .navbar-nav .nav-link{
         margin: 0 ;
     }
