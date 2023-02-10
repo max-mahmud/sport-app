@@ -2,7 +2,7 @@
 import Banner from './component/Banner/Banner';
 import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
-import Moments from './component/Moment/Moments';
+import Gallary from './component/Gallary/Gallary';
 import Services from './component/Services/Services';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Services />
-      <Moments />
+      <Gallary />
       <Footer />
     </>
   );
