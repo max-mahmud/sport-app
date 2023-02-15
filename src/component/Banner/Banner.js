@@ -5,17 +5,16 @@ import "./Banner.css"
 
 
     function Banner () {
-        const [sliderInfo, setSliderInfo ] = useState([]);
+        const [banner, setBanner ] = useState([]);
         useEffect(() => {
         fetch("hero.json")
         .then(res => res.json())
-        .then(data => setSliderInfo(data))
-        .catch(error => console.log(error));
+        .then(data => setBanner(data))
         }, []);
     
         return (
             <Carousel className="my-slider">
-            {sliderInfo.map((slider) => (
+            {banner.map((slider) => (
                 <Carousel.Item key={slider.id}>
                 <Image fluid className="d-block" src={slider.img} alt="Slider" />
                 <Carousel.Caption className="py-1">
