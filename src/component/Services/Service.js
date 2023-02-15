@@ -1,15 +1,15 @@
 import React from 'react'
 import "./secvices.css"
-const Service = ({image, heading, price, text}) => {
+const Service = ({item}) => {
     return (
         <>
                     <div className="col-lg-4 ">
                         <div className="single_service">
-                        <img src={image} alt="" className='w-100' />
+                        <img src={item.img} alt="" className='w-100' />
                         <div className="service_text">
-                            <h3>{heading}</h3>
-                            <h5>Price: ${price}</h5>
-                            <p>{text}</p>
+                            <h3>{item.name}</h3>
+                            <h5>Price: ${item.price}</h5>
+                            <p>{item.description}</p>
                             <a href='#' className='mybtn'>book now</a>
                         </div>
                         </div>
