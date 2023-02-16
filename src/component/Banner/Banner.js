@@ -4,7 +4,7 @@ import {Carousel,Image} from "react-bootstrap";
 import "./Banner.css"
 
 
-    function Banner () {
+    const Banner=() =>{
         const [banner, setBanner ] = useState([]);
         useEffect(() => {
         fetch("hero.json")
