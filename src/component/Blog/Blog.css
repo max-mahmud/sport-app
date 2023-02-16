@@ -1,0 +1,18 @@
+.blog-heading{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.blog_area{
+    padding: 60px 0 40px 0;
+}
+.blog_area h4{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.single_blog {
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
