@@ -1,0 +1,29 @@
+.not_page{
+    min-height:calc(100vh - 165px);
+}
+.not_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.not_page h2{
+    font-size: 82px;
+}
+.not_page h4{
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.back_home{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 15px;
+    color: #FFF;
+    background-color: rgb(47, 150, 235);
+    transition: all .2s ease-in-out;
+    margin-top: 15px;
+}
+.back_home:hover{
+    color: #FFF;
+    background-color: rgb(8, 102, 179);
+}
