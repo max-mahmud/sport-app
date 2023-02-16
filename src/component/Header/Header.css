@@ -7,18 +7,6 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-/* .navbar-nav a{
-    position: relative;
-}
-.navbar-nav a.active-link:after {
-    background: #fff;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-} */
 
 .myheader .navbar-nav a:last-child{
     background-color: #7952b3;
